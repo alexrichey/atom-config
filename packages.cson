@@ -1,0 +1,20 @@
+'packages': [
+  'advanced-open-file',
+  'atom-beautify',
+  'emmet',
+  'emmet-simplified',
+  'expand-region',
+  'git-plus',
+  'git-time-machine',
+  'jshint',
+  'language-ansible',
+  'lisp-paredit',
+  'minimap',
+  'multi-cursor',
+  'open-html-in-browser',
+  'package-sync',
+  'proto-repl',
+  'vim-mode',
+  'language-ansible',
+  'atomify'
+]

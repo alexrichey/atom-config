@@ -1,0 +1,23 @@
+# Your keymap
+#
+# Atom keymaps work similarly to stylesheets. Just as stylesheets use selectors
+# to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+
+
+'.workspace .editor':
+  'ctrl-g': 'core:cancel'
+  # 'ctrl-e': 'unset!'
+  'ctrl-e': 'editor:move-to-end-of-line'
+  # 'ctrl-w': 'unset!'
+  'ctrl-w': 'editor:delete-to-end-of-word'
+  'ctrl-backspace': 'editor:delete-to-beginning-of-word'
+  'ctrl-delete':'editor:delete-to-end-of-word'
+  
+'atom-text-editor.vim-mode.insert-mode':
+  'k': 'exit-insert-mode-if-preceded-by-j'
