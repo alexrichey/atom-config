@@ -8,6 +8,7 @@
       "emmet"
       "emmet-simplified"
       "language-ampscript"
+      "vim-mode"
     ]
     telemetryConsent: "no"
     themes: [

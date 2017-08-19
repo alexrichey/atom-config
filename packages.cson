@@ -14,7 +14,7 @@
   'open-html-in-browser',
   'package-sync',
   'proto-repl',
-  'vim-mode',
+  'vim-mode-plus',
   'language-ansible',
-  'atomify'
+  'mavensmate-atom'
 ]
