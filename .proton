@@ -79,7 +79,6 @@
       {"source.clojure" ["proton"]
        "source.java" ["cls"]}]
     ;; appearance
-    ["editor.fontFamily" "Hack"]
     ["editor.softWrap" false]
     ["editor.tabLength" 2]
     ["editor.tabType" "soft"]
