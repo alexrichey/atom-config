@@ -1,0 +1,15 @@
+"*":
+  core:
+    telemetryConsent: "no"
+  editor:
+    "atom-text-editor":
+      "vim-mode-plus:not(":
+        "normal-mode)":
+          "j k": "vim-mode-plus:activate-normal-mode"
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "a10c1fa2-d461-4732-a9fb-6e65fc34c31d"
+  "file-types":
+    "*.yml": "source.yaml"
+  "tree-view":
+    hideVcsIgnoredFiles: true
