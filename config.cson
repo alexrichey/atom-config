@@ -1,5 +1,9 @@
 "*":
   core:
+    customFileTypes:
+      "source.yaml": [
+        "yml"
+      ]
     telemetryConsent: "no"
   editor:
     "atom-text-editor":
@@ -9,7 +13,7 @@
     scrollPastEnd: true
   "exception-reporting":
     userId: "a10c1fa2-d461-4732-a9fb-6e65fc34c31d"
-  "file-types":
-    "*.yml": "source.yaml"
   "tree-view":
     hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
